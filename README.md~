@@ -54,7 +54,7 @@ Split String that contains spaces and a value inside brackets (returns a String-
 ```
 
 
-AOKP Uils:
+AOKP Utils:
 ===========
 
 See the description inside every class, it's quite simple ;)

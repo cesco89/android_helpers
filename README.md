@@ -49,7 +49,7 @@ Split String that contains spaces and a value inside brackets (returns a String-
 
 ```java
 	File file = new File("/sys/block/mmcblk0/queue/scheduler"); 
-	String InsideBrackets = IsInsideBrackets(file, "[", "]");
+	String[] InsideBrackets = IsInsideBrackets(file, "[", "]");
 
 ```
 
