@@ -59,5 +59,5 @@ AOKP Uils:
 
 See the description inside every class, it's quite simple ;)
 
-[1] https://github.com/AOKP
+[1]: https://github.com/AOKP
 
