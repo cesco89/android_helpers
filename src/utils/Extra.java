@@ -77,7 +77,7 @@ public class Extra {
 	/*
 	 * get String-array from a file that contains multiple separators or brackets
 	 */
-	public String[] getIOSchedulers(File file, String first_separator, String last_separator) {
+	public String[] ExtraStringSplitter(File file, String first_separator, String last_separator) {
 		String content = ReadFileContent(file);
 		SPLIT_MULTIPLE_SEPARATORS = content.replace(first_separator, "").replace(last_separator, "").split(" ");
 
@@ -88,7 +88,7 @@ public class Extra {
 	 * retrieve the value between brackets
 	 */
 	
-	public String isInsideBranckets(File file, String first_separator, String last_separator) {
+	public String IsInsideBranckets(File file, String first_separator, String last_separator) {
 		String content = ReadFileContent(file);
 		int bropen = content.indexOf(first_separator);
 		int brclose = content.lastIndexOf(last_separator);
