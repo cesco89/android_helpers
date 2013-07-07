@@ -22,36 +22,36 @@ Explanation and how to:
 
 Read file content and return a String (ReadFileContent):
 -----
-'''java
+```java
 	File file = new File("/sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies")
 	String content = ReadFileContent(file);
-'''
+```
 
 Check if File exists, returns boolean :
 -----
 
-'''java
+```java
 	File file = new File("/sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies")
 	boolean fileCheck = CheckIFileExists(file)
-'''
+```
 
 Split String and return a String-array :
 -----
 
-'''java
+```java
 	File file = new File("/sys/devices/system/cpu/cpu0/cpufreq/scaling_available_frequencies")
 	String content = ReadFileContent(file);
 	String[] splittedContent = StringSplitter(content, " " );	
 
-'''
+```
 Split String that contains spaces and a value inside brackets (returns a String-array):
 -----
 
-'''java
+```java
 	File file = new File("/sys/block/mmcblk0/queue/scheduler"); 
 	String InsideBrackets = IsInsideBrackets(file, "[", "]");
 
-'''
+```
 
 
 AOKP Uils:
